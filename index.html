@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/apps.css">
 
     <title>E-Library | SMA Negeri 2 Banjar</title>
 
@@ -13,9 +20,52 @@
 
 <body>
 
-    <h1>Hello, Genami Tech Team!</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" width="200px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Beranda</a>
+                    <a class="nav-item nav-link" href="#">Katalog Buku</a>
+                    <a class="nav-item nav-link" href="#">Hubungi Kami</a>
+                    <a class="nav-item nav-link btn btn-primary btn-sm" href="#">Masuk</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 align-self-center mb-5">
+                    <h1><b>500+ Buku Tersedia Disini!</b></h1>
+                    <h6 class="mb-5">Yuk rajin membaca, supaya lebih pintar! 😄</h6>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <form>
+                                <div class="input-group input-group-md search mb-3">
+                                    <input type="text" class="form-control" placeholder="Cari penulis, kategori atau judul buku.." autofocus>
+                                    <button class="btn btn-search btn-sm ml-3" type="button">Cari Buku</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 text-center align-self-center">
+                    <img src="./assets/banner/illustration.png" width="400px" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
     <script src="./js/jquery-3.2.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

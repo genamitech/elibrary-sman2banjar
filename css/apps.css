@@ -1,0 +1,58 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #FEFEFE;
+}
+
+.card-menu {
+    background-color: #EA5251;
+}
+
+input {
+    border: none!important;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 1em!important;
+    font-size: 14px!important;
+    padding: 10px 20px!important;
+    transition: 500ms;
+}
+
+input:focus {
+    border: none!important;
+}
+
+.btn-search {
+    background-color: #393F93;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 1em!important;
+}
+
+.active {
+    font-weight: 600;
+    color: #EA5251 !important;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    background-color: #EA5251;
+    border: none;
+    color: white !important;
+    border-radius: 1em;
+}
+
+.banner {
+    padding: 50px 0px;
+    background-color: #FEFEFE;
+}

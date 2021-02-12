@@ -44,8 +44,8 @@ input:focus {
 }
 
 .btn-access {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     background-color: #EA5251;
     border: none;
     color: white !important;
@@ -75,6 +75,7 @@ input:focus {
     padding: 20px 20px;
     border-radius: 1em;
     transition: 500ms ease;
+    margin-bottom: 20px;
 }
 
 .item a {
